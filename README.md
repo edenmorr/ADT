@@ -4,10 +4,8 @@
 במטלה זו נממש מערך אדפטיבי כללי בשפת C. 
 מערך אדפטיבי הינו מערך שמשנה את גודלו כך שכל פנייה לאינדק אי שלילי היא תקינה. כאשר פונים לאינדקס בו לא הושם ערך אז מוחזרNULL
 
-  file:///Users/edenmor/Downloads/ADT_definition.png
-  
-  ![ADT_definition.pdf](file:///Users/edenmor/Downloads/ADT_definition.png)
 
+<img width="1110" alt="צילום מסך 2023-03-22 ב-21 04 02" src="https://user-images.githubusercontent.com/93930203/227010361-97bd2fb6-d828-4416-b043-b2abe847ec1c.png">
 
 </div>
 
