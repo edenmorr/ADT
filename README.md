@@ -6,8 +6,7 @@
 
   
   
-  ![ADT_definition.pdf]
-  (https://github.com/edenmorr/ADT/files/11043756/ADT_definition.pdf)
+  ![ADT_definition.pdf](https://github.com/edenmorr/ADT/files/11043756/ADT_definition.pdf)
 
 
 </div>
