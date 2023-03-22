@@ -18,8 +18,9 @@ typedef struct AdptArray_
 	
 }AdptArray;
 
+//i used as assisted the moad a of c cource
 
-
+//initializing the array
 PAdptArray CreateAdptArray(COPY_FUNC copyf, DEL_FUNC delf, PRINT_FUNC printf)
 {
 	PAdptArray array = (PAdptArray)malloc(sizeof(AdptArray));
@@ -80,7 +81,7 @@ void PrintDB(PAdptArray array){
     }
     
 }
-
+// Check if Allocte memory went success,if not then return 0
 Result SetAdptArrayAt(PAdptArray array, int idx, PElement pn)
 {
 
@@ -91,11 +92,13 @@ Result SetAdptArrayAt(PAdptArray array, int idx, PElement pn)
 	if (idx >= array->size) 
 	{ 
 		
+        // Copying the allocate to the original Array 
 
 		if ((p = (PElement*)calloc((idx + 1), sizeof(PElement))) == NULL)
 			return FAIL; 
 
 		memcpy(p, array->element, (array->size) * sizeof(PElement)); 
+        // relising the memory
 
 		free(array->element); 
 
@@ -103,6 +106,7 @@ Result SetAdptArrayAt(PAdptArray array, int idx, PElement pn)
 
 	}
 
+	// delete the current element 
 
     if ((array->element)[idx]!=NULL){
     
